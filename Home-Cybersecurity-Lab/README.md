@@ -27,11 +27,4 @@ Infrastructure Setup
 | Client Machine    | Windows 10          |
 
 
-Key Implementations
-
-🔐 pfSense
-
-pfSense is configured as the firewall for our private homelab, isolating each subnet and ensuring that only the Kali Linux host can access its management interface. This is accomplished by assigning dedicated virtual network adapters to pfSense and linking them to the appropriate VLANs.
-
-<img width="617" alt="Pfsense-setup" src="https://github.com/user-attachments/assets/378202b8-b4f8-449c-bf96-a89a4b7e37bd" />
 
