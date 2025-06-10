@@ -1,0 +1,89 @@
+# 🔐 pfSense Firewall Installation – Home Lab Project
+
+This repository documents the step-by-step setup of **pfSense** as the firewall and router for my personal cybersecurity home lab. It is the foundational layer for simulating real-world security scenarios and network segmentation.
+
+---
+
+## 📌 Project Goal
+
+To deploy a robust and secure virtual network environment using **pfSense** to control traffic, monitor threats, and simulate enterprise-level infrastructure for cybersecurity practice and research.
+
+---
+
+## 🖥️ Environment Setup
+
+- **Host Machine:** Windows Laptop
+- **Virtualization Software:** VMware Workstation Pro
+- **Network Configuration:**
+  - WAN: NAT (for internet access)
+  - LAN: Custom VMnet (for lab machines)
+  
+  
+
+---
+
+## 🔧 Installation Steps
+
+### 1. Download pfSense ISO
+- Source: [https://www.pfsense.org/download/](https://www.pfsense.org/download/)
+
+### 2. Create a New Virtual Machine in VMware
+- OS Type: FreeBSD 64-bit
+- Attach ISO image
+- Assign 5 network adapters
+
+
+### 3. Configure VM Network Adapters
+- Open **VMware Virtual Network Editor**
+- Create/enable **VMnet2** and set it to **Host-Only**
+- Assign VM adapters and correspond them with a VMnet interface 
+
+### 4. Install pfSense
+- Follow guided installer
+- Select keymap, disk layout, and install to target disk
+- Reboot
+
+---
+
+## 🌐 Post-Installation Configuration
+
+- Assign interfaces (WAN = em0, LAN = em1)
+- Set LAN IP statically: `192.168.1.1/24`
+- Enable web configurator access via `https://192.168.203.1`
+- Configure DHCP
+
+---
+
+## 🛡️ Why pfSense?
+
+pfSense offers enterprise-grade firewall and routing capabilities, making it ideal for simulating complex networks in a home lab. It supports IDS/IPS, VPNs, VLANs, and more—crucial for hands-on learning in cybersecurity.
+
+---
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Virtual network engineering
+- Secure firewall deployment
+- System hardening & configuration
+- Network segmentation and IP addressing
+- Troubleshooting and interface binding
+
+---
+
+## 📁 Next Steps
+
+- Install and Configure **Security Onion** for network monitoring
+- Install Ubuntu to manage Security Onion web interface and simulate SOC analyst
+- Install Kali Linux as Attacker MAchine
+- Add **Windows Server Domain Controller**
+- Add 2 Windows Machine 
+- Simulate attacks and test IDS/IPS functionality
+
+---
+
+## 👨‍💻 About Me
+
+I'm building a cybersecurity home lab from scratch to deepen my understanding of enterprise-grade security tools and infrastructure. This project demonstrates my ability to deploy and manage complex network systems.
+
