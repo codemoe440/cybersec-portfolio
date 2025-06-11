@@ -78,5 +78,36 @@ Deploy a fully functional Security Onion standalone sensor to monitor lab traffi
 
      <img width="657" alt="Screenshot 2025-06-11 154006" src="https://github.com/user-attachments/assets/e5ea11e8-642d-4ee1-9399-f5273530f432" />
 
+
+
+   🧠 Skills Demonstrated
+
+     
+Security Onion deployment & SIEM configuration
+
+Network tap setup and interface binding
+
+Log ingestion and alert tuning
+
+Dashboard creation and monitoring
+
+Integration with attacker VMs and traffic simulation
+
+
+    📁 Next Steps
+
+
+Add Kali Linux to generate attack traffic
+
+Add Ubuntu Desktop for SOC analyst interface
+
+Add Windows Server DC and additional client VMs
+
+Simulate attacks, detection, response, and tuning cycles
+
+
+
+
+
    
   
