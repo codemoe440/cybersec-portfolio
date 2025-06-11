@@ -74,5 +74,9 @@ Deploy a fully functional Security Onion standalone sensor to monitor lab traffi
 
 
    - Allow VM to reboot automatically
+
+
+     <img width="657" alt="Screenshot 2025-06-11 154006" src="https://github.com/user-attachments/assets/e5ea11e8-642d-4ee1-9399-f5273530f432" />
+
    
   
