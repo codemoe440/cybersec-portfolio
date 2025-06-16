@@ -52,7 +52,43 @@ Upon successful login, the **pfSense Setup Wizard** will appear. Proceed as foll
 - Set a strong admin password  
 - Click `Next`
 
-  <img width="572" alt="Screenshot 2025-06-16 213103" src="https://github.com/user-attachments/assets/b1061f24-c5ae-4dda-9386-02bd961c6594" />
+  <img width="366" alt="Screenshot 2025-06-16 213103" src="https://github.com/user-attachments/assets/d52917a1-1468-43e0-afb0-475ea3abdcbd" />
 
-- **Step 7:** Reload Configuration
+
+- **For OPT3 Be sure to Enable Interface as shown below
+
+  <img width="554" alt="Screenshot 2025-06-16 220338" src="https://github.com/user-attachments/assets/8e7d6e4e-0733-4e1f-84bc-894411f8fa04" />
+
+**Back at Interfaces Assignment select Bridges
+
+Click Add
+
+<img width="554" alt="Screenshot 2025-06-16 220502" src="https://github.com/user-attachments/assets/bb78b3f6-dabe-417c-81c2-c82aea3e5db9" />
+
+- **Select VictimNetwork as the Member Interface
+
+  <img width="557" alt="Screenshot 2025-06-16 220622" src="https://github.com/user-attachments/assets/ce2c5c16-510a-4322-90f7-50c8f320c603" />
+
+  - **Then select Display Advanced
+
+Under Advanced Configuration for Span Port, select "SPANPORT"
+
+Scroll all the way down and Click Save
+
+<img width="558" alt="Screenshot 2025-06-16 220747" src="https://github.com/user-attachments/assets/5aa82497-c2d3-4478-beac-44e15e96eb3a" />
+
+- **Click Firewall >> Rules
+- 
+<img width="552" alt="Screenshot 2025-06-16 220949" src="https://github.com/user-attachments/assets/30c3ecff-8ccf-4a16-bfef-b8c818a54a00" />
+
+- **Select the Add button with the arrow pointed downward
+
+ ~ Under "edit Firewall Rule" for Protocol select ANY 
+
+ ~ Scroll all the way down and SAVE
+
+ 
+  <img width="557" alt="Screenshot 2025-06-16 221047" src="https://github.com/user-attachments/assets/0b4ca766-c996-4983-a307-15c339b349ce" />
+
+
 
