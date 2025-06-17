@@ -55,4 +55,39 @@ While you wait set up the second desktop with the second user account credential
 Search "pc name" and change the PC Name according to the designated users
 
 Restart the PC
-   
+
+## JOINING THE PCs TO THE DOMAIN
+
+** ~ Navigate to Network Adapter settings
+
+ ~ Right-click on Ethernet0 and select properties
+
+ ~ Select IPV4 
+
+ ~ Add an IP Address(192.168.2.31) & Use 192.168.2.1 as the default gateway
+
+ ~ Use 192.168.2.10(VictimsNetwork) as the DNS Server
+
+
+<img width="530" alt="Screenshot 2025-06-17 214744" src="https://github.com/user-attachments/assets/e1b84fdb-7a28-4d56-8e29-07d4f49c0820" />
+
+** Search "domain" and select Access work or school
+
+Select Connect > Join this device to local Active Directory Domain
+
+Enter your domain name.local (CODEMOE.local for me)
+
+<img width="390" alt="Screenshot 2025-06-17 215147" src="https://github.com/user-attachments/assets/ebb862dd-4a4a-4810-a1e8-ec422b1665f4" />
+
+
+** Enter the Username: Administrator and the password of your DC
+
+Select Skip
+
+Restart 
+
+
+Repeat this process for the second machine.
+
+
+

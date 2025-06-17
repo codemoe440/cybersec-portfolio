@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔧 pfSense Interfaces & Firewall Rules Configuration – Home Lab Project
 
 After setting up the Kali Linux machine and verifying connectivity to the pfSense LAN interface (`192.168.1.1`), we proceed to configure the pfSense **WebConfigurator** and define custom interfaces to reflect the segmented home lab network. This section documents the step-by-step changes made via the pfSense web interface.
@@ -92,3 +93,8 @@ Scroll all the way down and Click Save
 
 
 
+=======
+# Pfsense Interface and Rules
+
+THis is pfsense rinterface and rules configuration
+>>>>>>> 806e8d0 (Homelab-Log-Analysis)
