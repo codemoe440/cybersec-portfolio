@@ -1,2 +1,2 @@
-## Introduction to log analysis, simulating and detecting windows poswershell logs
+## Introduction to log analysis, simulating and detecting different types of logs
 
