@@ -1,10 +1,12 @@
 ## Introduction to Log Analysis
 **Objective**:
 
-The objective of this lab is to introduce students to the basics of log analysis and demonstrate how logs from different systems can be collected, analyzed, and used for security monitoring. Students will learn how to generate simple logs on both Windows and Linux systems and how SOC Analysts use logs to detect security incidents.
+The objective of this lab was to deepen my understanding of log analysis by learning how logs are generated, collected, and analyzed across both Windows and Linux systems. I will be exploring how different types of logs such as authentication attempts and system events can be used to monitor activity and detect potential security incidents. This hands-on experience is helping me build the practical skills needed to think like a Cybersecurity Analyst.
+
 
 
 **What is a Log?**
+
 
 A log is a record of events in a system that captures important actions like errors, warnings, or user activities. These logs contain key information such as:
 
