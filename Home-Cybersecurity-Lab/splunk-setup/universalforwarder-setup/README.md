@@ -173,6 +173,16 @@ Ensure the following:
 ---
 
 
+## 📘 Lessons Learned
+
+- Gained hands-on experience with **endpoint log forwarding** using Splunk UF.
+- Learned the importance of **indexing and categorizing logs** for efficient searching.
+- Understood how to set up **Splunk as a central log receiver** using port `9997`.
+- Improved understanding of **domain controller log sources**, particularly for user authentication and system events.
+- Identified how **forwarded logs** can support real-time security monitoring, incident detection, and audit compliance.
+
+
+  
 
 ## 🔍 Why This Matters
 
